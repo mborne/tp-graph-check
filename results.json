@@ -1,0 +1,114 @@
+[
+  {
+    "username": "MatRouillard",
+    "repositoryUrl": "https://github.com/MatRouillard/tp-refactoring-graph",
+    "headId": "9d2a6ab085225c52025d5266b36ab26d1ebd04bd",
+    "branchName": "dev",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "ClaireGuerrini",
+    "repositoryUrl": "https://github.com/ClaireGuerrini/tp-refactoring-graph",
+    "headId": "cb9275ddc442ade2b013668ef6d6304a4cb1c33c",
+    "branchName": "initial",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "Cirederf1",
+    "repositoryUrl": "https://github.com/Cirederf1/tp-refactoring-graph",
+    "headId": "084bb4e0c25af1df915b8d6bc9f2d153a2f0b3c4",
+    "branchName": "initial",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "VGiudicelli1",
+    "repositoryUrl": "https://github.com/VGiudicelli1/tp-refactoring-graph.git",
+    "headId": "2444a3114f7189ba1278139c46016a3afd0107b6",
+    "branchName": "dev",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "rom2049",
+    "repositoryUrl": "https://github.com/rom2049/tp-refactoring-graph",
+    "headId": "6f69a60e143c312f7b49d508cbd8eabb1c80bf79",
+    "branchName": "initial",
+    "build": true,
+    "test": false
+  },
+  {
+    "username": "AxelDmt",
+    "repositoryUrl": "https://github.com/AxelDmt/tp-refactoring-graph",
+    "headId": "153d22d34d9ce7caa227a677170da377234a6d45",
+    "branchName": "initial",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "VictorienO",
+    "repositoryUrl": "https://github.com/VictorienO/tp-refactoring-graph-victorien",
+    "headId": "0979838287dcc9c90619ab1de7d34add47cbf8af",
+    "branchName": "initial",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "outmrhoust",
+    "repositoryUrl": "https://github.com/outmrhoust/tp-refactoring-graph.git",
+    "headId": "789b3d2956c98d4a2b81542e38c67c928b8221f7",
+    "branchName": "initial",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "ToffoluttiVittorio",
+    "repositoryUrl": "https://github.com/ToffoluttiVittorio/tp-refactoring-graph",
+    "headId": "f4ef148b46328635f7ae1241fce7fa0270a901c2",
+    "branchName": "initial",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "Matheoia",
+    "repositoryUrl": "https://github.com/Matheoia/tp-refactoring-graph",
+    "headId": "1dfc3bd3c44a07b0179642ead420f41752679462",
+    "branchName": "initial",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "Hannick5",
+    "repositoryUrl": "https://github.com/Hannick5/tp-refactoring-graph",
+    "headId": "1dfc3bd3c44a07b0179642ead420f41752679462",
+    "branchName": "initial",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "CecileTalec",
+    "repositoryUrl": "https://github.com/CecileTalec/tp-refactoring-graph",
+    "headId": "09ad2eb18559e804570e88d83b8adb96c6e9dfab",
+    "branchName": "initial",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "GirardinClaire",
+    "repositoryUrl": "https://github.com/GirardinClaire/tp-refactoring-graph",
+    "headId": "167b1d545d56d8ba75649c200f6bb8b7407943f5",
+    "branchName": "dev",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "Sivloc",
+    "repositoryUrl": "https://github.com/Sivloc/tp-refactoring-graph",
+    "headId": "97080793b1afad87455e54d1a267975f01785631",
+    "branchName": "initial",
+    "build": true,
+    "test": true
+  }
+]

@@ -1,0 +1,10 @@
+* initial
+  remotes/origin/0.2
+  remotes/origin/0.3
+  remotes/origin/0.4
+  remotes/origin/0.5
+  remotes/origin/0.6
+  remotes/origin/0.7
+  remotes/origin/0.8
+  remotes/origin/HEAD -> origin/initial
+  remotes/origin/initial
