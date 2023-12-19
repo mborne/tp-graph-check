@@ -26,7 +26,7 @@
   {
     "username": "VGiudicelli1",
     "repositoryUrl": "https://github.com/VGiudicelli1/tp-refactoring-graph.git",
-    "headId": "2444a3114f7189ba1278139c46016a3afd0107b6",
+    "headId": "ba7d91e63c92427fd6d02ca778b9ae058d0b307b",
     "branchName": "dev",
     "build": true,
     "test": true
@@ -34,10 +34,10 @@
   {
     "username": "rom2049",
     "repositoryUrl": "https://github.com/rom2049/tp-refactoring-graph",
-    "headId": "6f69a60e143c312f7b49d508cbd8eabb1c80bf79",
+    "headId": "9b0e8d0e33a3d0fa758f893a3d50a7339b1c2324",
     "branchName": "initial",
     "build": true,
-    "test": false
+    "test": true
   },
   {
     "username": "AxelDmt",
@@ -58,7 +58,7 @@
   {
     "username": "outmrhoust",
     "repositoryUrl": "https://github.com/outmrhoust/tp-refactoring-graph.git",
-    "headId": "789b3d2956c98d4a2b81542e38c67c928b8221f7",
+    "headId": "eb90a188f9a800bc3ded24df9813f5a794b905c6",
     "branchName": "initial",
     "build": true,
     "test": true
@@ -74,8 +74,8 @@
   {
     "username": "Matheoia",
     "repositoryUrl": "https://github.com/Matheoia/tp-refactoring-graph",
-    "headId": "1dfc3bd3c44a07b0179642ead420f41752679462",
-    "branchName": "initial",
+    "headId": "683a70a1044592aebe9985eb700c63650da8e0ed",
+    "branchName": "0.8",
     "build": true,
     "test": true
   },

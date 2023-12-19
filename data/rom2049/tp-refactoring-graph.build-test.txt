@@ -5,10 +5,10 @@
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:3.2.0:clean (default-clean) @ tp-refactoring-graph ---
-[INFO] Deleting /home/mickael/workspace_formation/tp-graph-check/data/rom2049/tp-refactoring-graph/target
+[INFO] Deleting /mnt/data/workspaces/workspace_formation/tp-graph-check/data/rom2049/tp-refactoring-graph/target
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (default-prepare-agent) @ tp-refactoring-graph ---
-[INFO] argLine set to -javaagent:/home/mickael/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/mickael/workspace_formation/tp-graph-check/data/rom2049/tp-refactoring-graph/target/jacoco.exec
+[INFO] argLine set to -javaagent:/home/MBorne/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/mnt/data/workspaces/workspace_formation/tp-graph-check/data/rom2049/tp-refactoring-graph/target/jacoco.exec
 [INFO] 
 [INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ tp-refactoring-graph ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -18,7 +18,7 @@
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ tp-refactoring-graph ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 11 source files to /home/mickael/workspace_formation/tp-graph-check/data/rom2049/tp-refactoring-graph/target/classes
+[INFO] Compiling 13 source files to /mnt/data/workspaces/workspace_formation/tp-graph-check/data/rom2049/tp-refactoring-graph/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ tp-refactoring-graph ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -27,52 +27,45 @@
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ tp-refactoring-graph ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 6 source files to /home/mickael/workspace_formation/tp-graph-check/data/rom2049/tp-refactoring-graph/target/test-classes
+[INFO] Compiling 6 source files to /mnt/data/workspaces/workspace_formation/tp-graph-check/data/rom2049/tp-refactoring-graph/target/test-classes
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ tp-refactoring-graph ---
 [INFO] 
 [INFO] -------------------------------------------------------
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
-[INFO] Running org.acme.graph.model.GraphTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 s - in org.acme.graph.model.GraphTest
-[INFO] Running org.acme.graph.io.GraphReaderTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.581 s - in org.acme.graph.io.GraphReaderTest
-[INFO] Running org.acme.graph.routing.DijkstraRegressTest
-21:36:36.116 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
-21:36:36.119 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c) : path found
-21:36:36.119 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a)...
-21:36:36.143 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
-21:36:36.143 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b) : path found
-[ERROR] Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.122 s <<< FAILURE! - in org.acme.graph.routing.DijkstraRegressTest
-[ERROR] testBANotFound(org.acme.graph.routing.DijkstraRegressTest)  Time elapsed: 0.023 s  <<< ERROR!
-org.acme.graph.errors.NotFoundException: Path not found from 'b' to 'a'
-	at org.acme.graph.routing.DijkstraRegressTest.testBANotFound(DijkstraRegressTest.java:42)
-
 [INFO] Running org.acme.graph.demo.CqEngineTest
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.668 s - in org.acme.graph.demo.CqEngineTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.464 s - in org.acme.graph.demo.CqEngineTest
+[INFO] Running org.acme.graph.io.GraphReaderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.985 s - in org.acme.graph.io.GraphReaderTest
+[INFO] Running org.acme.graph.routing.DijkstraRegressTest
+17:55:25.237 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
+17:55:25.242 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c) : path found
+17:55:25.246 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a)...
+17:55:25.246 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a) : path not found
+17:55:25.248 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
+17:55:25.248 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b) : path found
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.196 s - in org.acme.graph.routing.DijkstraRegressTest
+[INFO] Running org.acme.graph.model.GraphTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.acme.graph.model.GraphTest
 [INFO] 
 [INFO] Results:
 [INFO] 
-[ERROR] Errors: 
-[ERROR]   DijkstraRegressTest.testBANotFound:42 » NotFound Path not found from 'b' to 'a...
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
-[ERROR] Tests run: 13, Failures: 0, Errors: 1, Skipped: 0
 [INFO] 
+[INFO] --- maven-jar-plugin:3.2.2:jar (default-jar) @ tp-refactoring-graph ---
+[INFO] Building jar: /mnt/data/workspaces/workspace_formation/tp-graph-check/data/rom2049/tp-refactoring-graph/target/tp-refactoring-graph-0.1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.7.18:repackage (repackage) @ tp-refactoring-graph ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.7:report (default-cli) @ tp-refactoring-graph ---
+[INFO] Loading execution data file /mnt/data/workspaces/workspace_formation/tp-graph-check/data/rom2049/tp-refactoring-graph/target/jacoco.exec
+[INFO] Analyzed bundle 'tp-refactoring-graph' with 13 classes
 [INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
+[INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  15.183 s
-[INFO] Finished at: 2023-12-18T21:36:38+01:00
+[INFO] Total time:  27.792 s
+[INFO] Finished at: 2023-12-19T17:55:26+01:00
 [INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test (default-test) on project tp-refactoring-graph: There are test failures.
-[ERROR] 
-[ERROR] Please refer to /home/mickael/workspace_formation/tp-graph-check/data/rom2049/tp-refactoring-graph/target/surefire-reports for the individual test results.
-[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
-[ERROR] -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
