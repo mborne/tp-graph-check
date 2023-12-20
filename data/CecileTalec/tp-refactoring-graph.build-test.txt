@@ -35,16 +35,16 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running org.acme.graph.demo.CqEngineTest
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.73 s - in org.acme.graph.demo.CqEngineTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.359 s - in org.acme.graph.demo.CqEngineTest
 [INFO] Running org.acme.graph.io.GraphReaderTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.761 s - in org.acme.graph.io.GraphReaderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.096 s - in org.acme.graph.io.GraphReaderTest
 [INFO] Running org.acme.graph.routing.DijkstraRegressTest
-17:58:08.598 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
-17:58:08.604 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c) : path found
-17:58:08.606 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a)...
-17:58:08.607 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
-17:58:08.607 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b) : path found
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.158 s - in org.acme.graph.routing.DijkstraRegressTest
+14:57:45.608 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
+14:57:45.613 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c) : path found
+14:57:45.614 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a)...
+14:57:45.615 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
+14:57:45.615 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b) : path found
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.144 s - in org.acme.graph.routing.DijkstraRegressTest
 [INFO] Running org.acme.graph.model.GraphTest
 [INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.acme.graph.model.GraphTest
 [INFO] 
@@ -65,6 +65,6 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  15.225 s
-[INFO] Finished at: 2023-12-19T17:58:09+01:00
+[INFO] Total time:  19.802 s
+[INFO] Finished at: 2023-12-20T14:57:46+01:00
 [INFO] ------------------------------------------------------------------------

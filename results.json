@@ -18,7 +18,7 @@
   {
     "username": "Cirederf1",
     "repositoryUrl": "https://github.com/Cirederf1/tp-refactoring-graph",
-    "headId": "084bb4e0c25af1df915b8d6bc9f2d153a2f0b3c4",
+    "headId": "9ee2790ec6429abeb01cb9b3d0e92e4afffb1d3f",
     "branchName": "initial",
     "build": true,
     "test": true
@@ -29,7 +29,7 @@
     "headId": "ba7d91e63c92427fd6d02ca778b9ae058d0b307b",
     "branchName": "dev",
     "build": true,
-    "test": true
+    "test": false
   },
   {
     "username": "rom2049",
@@ -58,7 +58,7 @@
   {
     "username": "outmrhoust",
     "repositoryUrl": "https://github.com/outmrhoust/tp-refactoring-graph.git",
-    "headId": "eb90a188f9a800bc3ded24df9813f5a794b905c6",
+    "headId": "91b0a69ff102de4d391995525d76a07a06198477",
     "branchName": "initial",
     "build": true,
     "test": true
