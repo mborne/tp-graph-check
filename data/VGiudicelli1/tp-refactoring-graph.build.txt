@@ -7,7 +7,7 @@
 [INFO] --- maven-clean-plugin:3.2.0:clean (default-clean) @ tp-refactoring-graph ---
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (default-prepare-agent) @ tp-refactoring-graph ---
-[INFO] argLine set to -javaagent:/home/MBorne/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/mnt/data/workspaces/workspace_formation/tp-graph-check/data/VGiudicelli1/tp-refactoring-graph/target/jacoco.exec
+[INFO] argLine set to -javaagent:/home/mickael/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/mickael/workspace_formation/tp-graph-check/data/VGiudicelli1/tp-refactoring-graph/target/jacoco.exec
 [INFO] 
 [INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ tp-refactoring-graph ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -17,7 +17,7 @@
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ tp-refactoring-graph ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 13 source files to /mnt/data/workspaces/workspace_formation/tp-graph-check/data/VGiudicelli1/tp-refactoring-graph/target/classes
+[INFO] Compiling 13 source files to /home/mickael/workspace_formation/tp-graph-check/data/VGiudicelli1/tp-refactoring-graph/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ tp-refactoring-graph ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -26,19 +26,19 @@
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ tp-refactoring-graph ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 6 source files to /mnt/data/workspaces/workspace_formation/tp-graph-check/data/VGiudicelli1/tp-refactoring-graph/target/test-classes
+[INFO] Compiling 6 source files to /home/mickael/workspace_formation/tp-graph-check/data/VGiudicelli1/tp-refactoring-graph/target/test-classes
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ tp-refactoring-graph ---
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:3.2.2:jar (default-jar) @ tp-refactoring-graph ---
-[INFO] Building jar: /mnt/data/workspaces/workspace_formation/tp-graph-check/data/VGiudicelli1/tp-refactoring-graph/target/tp-refactoring-graph-0.1.0-SNAPSHOT.jar
+[INFO] Building jar: /home/mickael/workspace_formation/tp-graph-check/data/VGiudicelli1/tp-refactoring-graph/target/tp-refactoring-graph-0.1.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- spring-boot-maven-plugin:2.7.18:repackage (repackage) @ tp-refactoring-graph ---
 [INFO] Replacing main artifact with repackaged archive
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  5.156 s
-[INFO] Finished at: 2023-12-20T14:53:36+01:00
+[INFO] Total time:  3.327 s
+[INFO] Finished at: 2023-12-21T23:19:11+01:00
 [INFO] ------------------------------------------------------------------------
