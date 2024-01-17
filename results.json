@@ -106,9 +106,17 @@
   {
     "username": "Sivloc",
     "repositoryUrl": "https://github.com/Sivloc/tp-refactoring-graph",
-    "headId": "97080793b1afad87455e54d1a267975f01785631",
+    "headId": "b47259fb8df0c9031364bedf78e429c653b77518",
     "branchName": "initial",
     "build": true,
     "test": true
+  },
+  {
+    "username": "Lzrtn",
+    "repositoryUrl": "https://github.com/Lzrtn/tp-refactoring-graph",
+    "headId": "39a80e8d284cb308087781ffb47d3b19561d35fe",
+    "branchName": "initial",
+    "build": true,
+    "test": false
   }
 ]

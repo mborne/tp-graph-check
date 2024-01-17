@@ -5,10 +5,10 @@
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:3.2.0:clean (default-clean) @ tp-refactoring-graph ---
-[INFO] Deleting /home/mickael/workspace_formation/tp-graph-check/data/GirardinClaire/tp-refactoring-graph/target
+[INFO] Deleting /mnt/data/workspaces/workspace_formation/tp-graph-check/data/GirardinClaire/tp-refactoring-graph/target
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (default-prepare-agent) @ tp-refactoring-graph ---
-[INFO] argLine set to -javaagent:/home/mickael/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/mickael/workspace_formation/tp-graph-check/data/GirardinClaire/tp-refactoring-graph/target/jacoco.exec
+[INFO] argLine set to -javaagent:/home/MBorne/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/mnt/data/workspaces/workspace_formation/tp-graph-check/data/GirardinClaire/tp-refactoring-graph/target/jacoco.exec
 [INFO] 
 [INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ tp-refactoring-graph ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -18,7 +18,7 @@
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ tp-refactoring-graph ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 14 source files to /home/mickael/workspace_formation/tp-graph-check/data/GirardinClaire/tp-refactoring-graph/target/classes
+[INFO] Compiling 14 source files to /mnt/data/workspaces/workspace_formation/tp-graph-check/data/GirardinClaire/tp-refactoring-graph/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ tp-refactoring-graph ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -27,27 +27,27 @@
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ tp-refactoring-graph ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 6 source files to /home/mickael/workspace_formation/tp-graph-check/data/GirardinClaire/tp-refactoring-graph/target/test-classes
+[INFO] Compiling 6 source files to /mnt/data/workspaces/workspace_formation/tp-graph-check/data/GirardinClaire/tp-refactoring-graph/target/test-classes
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ tp-refactoring-graph ---
 [INFO] 
 [INFO] -------------------------------------------------------
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
-[INFO] Running org.acme.graph.model.GraphTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in org.acme.graph.model.GraphTest
-[INFO] Running org.acme.graph.io.GraphReaderTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.092 s - in org.acme.graph.io.GraphReaderTest
-[INFO] Running org.acme.graph.routing.DijkstraRegressTest
-23:22:18.663 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
-23:22:18.667 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c) : path found
-23:22:18.668 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a)...
-23:22:18.669 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a) : path not found
-23:22:18.669 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
-23:22:18.669 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b) : path found
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 s - in org.acme.graph.routing.DijkstraRegressTest
 [INFO] Running org.acme.graph.demo.CqEngineTest
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.746 s - in org.acme.graph.demo.CqEngineTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.558 s - in org.acme.graph.demo.CqEngineTest
+[INFO] Running org.acme.graph.io.GraphReaderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.249 s - in org.acme.graph.io.GraphReaderTest
+[INFO] Running org.acme.graph.routing.DijkstraRegressTest
+18:12:38.303 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
+18:12:38.307 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c) : path found
+18:12:38.309 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a)...
+18:12:38.309 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a) : path not found
+18:12:38.309 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
+18:12:38.309 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b) : path found
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.124 s - in org.acme.graph.routing.DijkstraRegressTest
+[INFO] Running org.acme.graph.model.GraphTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.acme.graph.model.GraphTest
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -55,17 +55,17 @@
 [INFO] 
 [INFO] 
 [INFO] --- maven-jar-plugin:3.2.2:jar (default-jar) @ tp-refactoring-graph ---
-[INFO] Building jar: /home/mickael/workspace_formation/tp-graph-check/data/GirardinClaire/tp-refactoring-graph/target/tp-refactoring-graph-0.1.0-SNAPSHOT.jar
+[INFO] Building jar: /mnt/data/workspaces/workspace_formation/tp-graph-check/data/GirardinClaire/tp-refactoring-graph/target/tp-refactoring-graph-0.1.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- spring-boot-maven-plugin:2.7.18:repackage (repackage) @ tp-refactoring-graph ---
 [INFO] Replacing main artifact with repackaged archive
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.7:report (default-cli) @ tp-refactoring-graph ---
-[INFO] Loading execution data file /home/mickael/workspace_formation/tp-graph-check/data/GirardinClaire/tp-refactoring-graph/target/jacoco.exec
+[INFO] Loading execution data file /mnt/data/workspaces/workspace_formation/tp-graph-check/data/GirardinClaire/tp-refactoring-graph/target/jacoco.exec
 [INFO] Analyzed bundle 'tp-refactoring-graph' with 14 classes
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  14.400 s
-[INFO] Finished at: 2023-12-21T23:22:21+01:00
+[INFO] Total time:  14.904 s
+[INFO] Finished at: 2024-01-17T18:12:39+01:00
 [INFO] ------------------------------------------------------------------------
