@@ -3,6 +3,18 @@
 [INFO] -------------------< org.acme:tp-refactoring-graph >--------------------
 [INFO] Building tp-refactoring-graph 0.1.0-SNAPSHOT
 [INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from maven: https://repo1.maven.org/maven2/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+[INFO] Downloading from osgeo-snapshot: https://repo.osgeo.org/repository/snapshot/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+[INFO] Downloading from osgeo: https://repo.osgeo.org/repository/release/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+[INFO] Downloaded from maven: https://repo1.maven.org/maven2/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml (1.4 kB at 4.4 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml (1.4 kB at 4.0 kB/s)
+[INFO] Downloading from osgeo: https://repo.osgeo.org/repository/release/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+[INFO] Downloading from maven: https://repo1.maven.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+[INFO] Downloading from osgeo-snapshot: https://repo.osgeo.org/repository/snapshot/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml (1.4 kB at 55 kB/s)
+[INFO] Downloaded from maven: https://repo1.maven.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml (1.4 kB at 51 kB/s)
 [INFO] 
 [INFO] --- maven-clean-plugin:3.2.0:clean (default-clean) @ tp-refactoring-graph ---
 [INFO] 
@@ -39,6 +51,6 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.639 s
-[INFO] Finished at: 2024-01-17T18:08:40+01:00
+[INFO] Total time:  6.031 s
+[INFO] Finished at: 2024-01-18T09:14:05+01:00
 [INFO] ------------------------------------------------------------------------

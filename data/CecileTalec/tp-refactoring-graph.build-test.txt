@@ -35,18 +35,18 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running org.acme.graph.demo.CqEngineTest
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.587 s - in org.acme.graph.demo.CqEngineTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.559 s - in org.acme.graph.demo.CqEngineTest
 [INFO] Running org.acme.graph.io.GraphReaderTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.751 s - in org.acme.graph.io.GraphReaderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.425 s - in org.acme.graph.io.GraphReaderTest
 [INFO] Running org.acme.graph.routing.DijkstraRegressTest
-18:12:18.252 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
-18:12:18.256 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c) : path found
-18:12:18.258 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a)...
-18:12:18.258 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
-18:12:18.259 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b) : path found
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.101 s - in org.acme.graph.routing.DijkstraRegressTest
+09:17:31.401 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
+09:17:31.405 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c) : path found
+09:17:31.407 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a)...
+09:17:31.407 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
+09:17:31.407 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b) : path found
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.114 s - in org.acme.graph.routing.DijkstraRegressTest
 [INFO] Running org.acme.graph.model.GraphTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.acme.graph.model.GraphTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.acme.graph.model.GraphTest
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -65,6 +65,6 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  14.401 s
-[INFO] Finished at: 2024-01-17T18:12:19+01:00
+[INFO] Total time:  9.999 s
+[INFO] Finished at: 2024-01-18T09:17:32+01:00
 [INFO] ------------------------------------------------------------------------
