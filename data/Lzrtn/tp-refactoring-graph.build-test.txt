@@ -5,10 +5,10 @@
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:3.2.0:clean (default-clean) @ tp-refactoring-graph ---
-[INFO] Deleting /mnt/data/workspaces/workspace_formation/tp-graph-check/data/Lzrtn/tp-refactoring-graph/target
+[INFO] Deleting /home/mickael/workspaces/workspace_correction/tp-graph-check/data/Lzrtn/tp-refactoring-graph/target
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (default-prepare-agent) @ tp-refactoring-graph ---
-[INFO] argLine set to -javaagent:/home/MBorne/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/mnt/data/workspaces/workspace_formation/tp-graph-check/data/Lzrtn/tp-refactoring-graph/target/jacoco.exec
+[INFO] argLine set to -javaagent:/home/mickael/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/mickael/workspaces/workspace_correction/tp-graph-check/data/Lzrtn/tp-refactoring-graph/target/jacoco.exec
 [INFO] 
 [INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ tp-refactoring-graph ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -18,7 +18,7 @@
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ tp-refactoring-graph ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 14 source files to /mnt/data/workspaces/workspace_formation/tp-graph-check/data/Lzrtn/tp-refactoring-graph/target/classes
+[INFO] Compiling 14 source files to /home/mickael/workspaces/workspace_correction/tp-graph-check/data/Lzrtn/tp-refactoring-graph/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ tp-refactoring-graph ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -27,43 +27,43 @@
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ tp-refactoring-graph ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 6 source files to /mnt/data/workspaces/workspace_formation/tp-graph-check/data/Lzrtn/tp-refactoring-graph/target/test-classes
+[INFO] Compiling 6 source files to /home/mickael/workspaces/workspace_correction/tp-graph-check/data/Lzrtn/tp-refactoring-graph/target/test-classes
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ tp-refactoring-graph ---
 [INFO] 
 [INFO] -------------------------------------------------------
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
-[INFO] Running org.acme.graph.demo.CqEngineTest
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.78 s - in org.acme.graph.demo.CqEngineTest
+[INFO] Running org.acme.graph.model.GraphTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.194 s - in org.acme.graph.model.GraphTest
 [INFO] Running org.acme.graph.io.GraphReaderTest
-[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.173 s <<< FAILURE! - in org.acme.graph.io.GraphReaderTest
-[ERROR] testRoute500(org.acme.graph.io.GraphReaderTest)  Time elapsed: 4.173 s  <<< FAILURE!
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.574 s <<< FAILURE! - in org.acme.graph.io.GraphReaderTest
+[ERROR] testRoute500(org.acme.graph.io.GraphReaderTest)  Time elapsed: 4.574 s  <<< FAILURE!
 java.lang.AssertionError: expected:<3> but was:<2>
 	at org.acme.graph.io.GraphReaderTest.testRoute500(GraphReaderTest.java:71)
 
 [INFO] Running org.acme.graph.routing.DijkstraRegressTest
-09:18:23.026 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
-09:18:23.031 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a)...
-09:18:23.032 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
-[ERROR] Tests run: 3, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 0.125 s <<< FAILURE! - in org.acme.graph.routing.DijkstraRegressTest
-[ERROR] testACFoundWithCorrectOrder(org.acme.graph.routing.DijkstraRegressTest)  Time elapsed: 0.123 s  <<< ERROR!
+22:30:06.130 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
+22:30:06.138 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a)...
+22:30:06.142 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
+[ERROR] Tests run: 3, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 0.147 s <<< FAILURE! - in org.acme.graph.routing.DijkstraRegressTest
+[ERROR] testACFoundWithCorrectOrder(org.acme.graph.routing.DijkstraRegressTest)  Time elapsed: 0.139 s  <<< ERROR!
 java.lang.NullPointerException
 	at org.acme.graph.routing.DijkstraRegressTest.testACFoundWithCorrectOrder(DijkstraRegressTest.java:56)
 
-[ERROR] testBANotFound(org.acme.graph.routing.DijkstraRegressTest)  Time elapsed: 0.002 s  <<< FAILURE!
+[ERROR] testBANotFound(org.acme.graph.routing.DijkstraRegressTest)  Time elapsed: 0.004 s  <<< FAILURE!
 java.lang.AssertionError: unexpected exception type thrown; expected:<org.acme.graph.errors.NotFoundException> but was:<java.lang.NullPointerException>
 	at org.acme.graph.routing.DijkstraRegressTest.testBANotFound(DijkstraRegressTest.java:50)
 Caused by: java.lang.NullPointerException
 	at org.acme.graph.routing.DijkstraRegressTest.lambda$testBANotFound$0(DijkstraRegressTest.java:50)
 	at org.acme.graph.routing.DijkstraRegressTest.testBANotFound(DijkstraRegressTest.java:50)
 
-[ERROR] testABFound(org.acme.graph.routing.DijkstraRegressTest)  Time elapsed: 0 s  <<< ERROR!
+[ERROR] testABFound(org.acme.graph.routing.DijkstraRegressTest)  Time elapsed: 0.002 s  <<< ERROR!
 java.lang.NullPointerException
 	at org.acme.graph.routing.DijkstraRegressTest.testABFound(DijkstraRegressTest.java:40)
 
-[INFO] Running org.acme.graph.model.GraphTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.acme.graph.model.GraphTest
+[INFO] Running org.acme.graph.demo.CqEngineTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.327 s - in org.acme.graph.demo.CqEngineTest
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -79,12 +79,12 @@ java.lang.NullPointerException
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  9.563 s
-[INFO] Finished at: 2024-01-18T09:18:23+01:00
+[INFO] Total time:  12.567 s
+[INFO] Finished at: 2024-02-10T22:30:09+01:00
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test (default-test) on project tp-refactoring-graph: There are test failures.
 [ERROR] 
-[ERROR] Please refer to /mnt/data/workspaces/workspace_formation/tp-graph-check/data/Lzrtn/tp-refactoring-graph/target/surefire-reports for the individual test results.
+[ERROR] Please refer to /home/mickael/workspaces/workspace_correction/tp-graph-check/data/Lzrtn/tp-refactoring-graph/target/surefire-reports for the individual test results.
 [ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
 [ERROR] -> [Help 1]
 [ERROR] 
