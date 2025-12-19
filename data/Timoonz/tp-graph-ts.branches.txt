@@ -1,0 +1,4 @@
+* main
+  remotes/origin/0.9_stockage_in_PathTree
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main

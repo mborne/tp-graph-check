@@ -1,0 +1,4 @@
+
+> tp-graph-ts@0.1.0 build
+> tsc
+

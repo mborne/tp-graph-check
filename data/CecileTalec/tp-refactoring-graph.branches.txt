@@ -1,5 +1,0 @@
-* initial
-  remotes/origin/HEAD -> origin/initial
-  remotes/origin/Q1
-  remotes/origin/dev
-  remotes/origin/initial

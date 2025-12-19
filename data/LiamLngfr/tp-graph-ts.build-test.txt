@@ -1,0 +1,37 @@
+
+> tp-graph-ts@0.1.0 test
+> mocha
+
+
+
+  ✔ should contains 21437 vertices and 47085 edges
+  ✔ should produce valid vertices with an id and 2D coordinates (416ms)
+  ✔ should produce valid edges with a positive length (1301ms)
+  ✔ should produce edges with startPoint and endPoint coordinates matching vertex (759ms)
+  test Graph
+    test findVertexById
+      ✔ should find 'a'
+      ✔ should throw Error for 'missing-vertex'
+    test findVertexByCoordinate
+      ✔ should find 'b' for [1.0, 0.0]
+      ✔ should throw Error for [2.0, 2.0]
+    test getOutEdges
+      ✔ should find 'ab' and 'ad' for 'a'
+      ✔ should return an empty array for 'd'
+    test getInEdges
+      ✔ should find 'ab' for 'b'
+      ✔ should return an empty array for 'a'
+    test getOrCreateVertex
+      ✔ should not duplicate vertex
+
+  test RoutingService
+    test with sample-graph-01 ...
+      ✔ should return an empty route from a to a
+      ✔ should find [ab] from a to b
+      ✔ should find [ab,bc] from a to c
+      ✔ shouldn't find path from c to a
+      ✔ shouldn't find path from b to a
+
+
+  18 passing (2s)
+

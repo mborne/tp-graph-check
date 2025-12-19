@@ -1,5 +1,5 @@
 {
-  "name": "tp-graph-check",
+  "name": "tp-geometry-check",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,10 +8,8 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
-    "express": "^4.18.2",
-    "http-server": "^14.1.1",
+    "express": "^4.21.1",
     "shelljs": "^0.8.5"
   }
 }

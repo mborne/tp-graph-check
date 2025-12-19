@@ -1,5 +1,3 @@
-# Correction TP-REFACTORING-GRAPH
+# Correction tp-refactoring-graph
 
-Correction du TP-REFACTORING-GRAPH et retours sur les problèmes récurrents.
 
-## Généralités
