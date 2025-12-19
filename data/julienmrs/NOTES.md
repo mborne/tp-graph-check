@@ -6,4 +6,5 @@
 
 ## Questions
 
-RAS
+- Q2 - createEdge non utilisée dans BdtopoLoader
+
